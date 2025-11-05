@@ -1,0 +1,19 @@
+div{
+    display: flex;
+    width: 100%;
+    background-color: aquamarine;
+    border-radius: 30px;
+}
+div:hover{
+    color: red;
+}
+
+#taxi{
+    display: grid;
+}
+#economy{
+    display: grid;
+}
+#businessclass{
+    display: grid;
+}

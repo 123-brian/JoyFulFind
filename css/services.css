@@ -1,0 +1,55 @@
+h1{
+    text-align: center;
+    color: blue;
+}
+
+#heading1{
+    font-size: 40px;
+    color: brown;
+    background-color: black;
+    text-align: center;
+}
+
+.paragraph{
+
+   font-weight: bold; 
+   font-style: italic;
+}
+
+#vip{
+    background-color: aqua;
+    display: flex;
+    padding: 40px;
+    margin: 30px;
+    border-radius: 30px;
+}
+#vip:hover{
+background-color: bisque;
+color: red;
+}
+#vip img{
+    margin-right: 30px;
+}
+
+#surprises{
+
+display: flex;
+
+}
+
+#surprises img{
+    margin-right: 30px;
+    margin-left: 30px;
+    border-radius: 30px;
+}
+
+button{
+    border-radius: 30px;
+    background-color: blue;
+    color: red;
+}
+button:hover{
+    background-color: blueviolet;
+    color: azure;
+}
+

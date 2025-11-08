@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formreg.html</title>
+
+
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+
+ 
+<body style="background: linear-gradient(135deg, #7c3aed 0%, #a78bfa 100%); min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 20px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+    
+    <div style="background: white; border-radius: 15px; box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3); overflow: hidden; max-width: 900px; width: 100%; position: relative;">
+        
+        <div class="row g-0">
+            <!-- Left Section - Let's Chat -->
+            <div class="col-lg-6" style="background: linear-gradient(135deg, #06b6d4 0%, #0891b2 100%); color: white; padding: 60px 40px; display: flex; flex-direction: column; justify-content: center;">
+                <h2 style="font-size: 2.5rem; font-weight: 700; margin-bottom: 20px;">Let's Chat</h2>
+                <p style="font-size: 1.1rem; line-height: 1.6; opacity: 0.95; margin-bottom: 15px;">Whether you have a question, want to start a project or simply want to connect.</p>
+                <p style="font-size: 1.1rem; line-height: 1.6; opacity: 0.95;">Feel free to send me a message in the contact form</p>
+            </div>
+
+            <!-- Right Section - Contact Form -->
+            <div class="col-lg-6" style="padding: 50px 40px; background: #fefefe;">
+                <h3 style="font-size: 2rem; font-weight: 700; color: #1f2937; margin-bottom: 10px;">Contact</h3>
+                <p style="color: #6b7280; font-size: 0.875rem; margin-bottom: 25px;">* Required</p>
+
+                <form id="contactForm">
+                    <div class="mb-3">
+                        <label for="name" class="form-label" style="color: #4b5563; font-weight: 500; margin-bottom: 8px; font-size: 0.95rem;">Name <span style="color: #ef4444;">*</span></label>
+                        <input type="text" class="form-control" id="name" required style="background-color: #f3f4f6; border: none; border-radius: 8px; padding: 12px 15px; font-size: 0.95rem;">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="email" class="form-label" style="color: #4b5563; font-weight: 500; margin-bottom: 8px; font-size: 0.95rem;">Email <span style="color: #ef4444;">*</span></label>
+                        <input type="email" class="form-control" id="email" required style="background-color: #f3f4f6; border: none; border-radius: 8px; padding: 12px 15px; font-size: 0.95rem;">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="company" class="form-label" style="color: #4b5563; font-weight: 500; margin-bottom: 8px; font-size: 0.95rem;">Company</label>
+                        <input type="text" class="form-control" id="company" style="background-color: #f3f4f6; border: none; border-radius: 8px; padding: 12px 15px; font-size: 0.95rem;">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="phone" class="form-label" style="color: #4b5563; font-weight: 500; margin-bottom: 8px; font-size: 0.95rem;">Phone</label>
+                        <input type="tel" class="form-control" id="phone" style="background-color: #f3f4f6; border: none; border-radius: 8px; padding: 12px 15px; font-size: 0.95rem;">
+                    </div>
+
+                    <div class="mb-4">
+                        <label for="message" class="form-label" style="color: #4b5563; font-weight: 500; margin-bottom: 8px; font-size: 0.95rem;">Message</label>
+                        <textarea class="form-control" id="message" rows="4" style="background-color: #f3f4f6; border: none; border-radius: 8px; padding: 12px 15px; font-size: 0.95rem; min-height: 120px; resize: vertical;"></textarea>
+                    </div>
+
+                    <div class="text-center">
+                        <button type="submit" class="btn" style="background: linear-gradient(135deg, #06b6d4 0%, #0891b2 100%); color: white; border: none; border-radius: 25px; padding: 12px 40px; font-weight: 600; font-size: 1rem; text-transform: uppercase; letter-spacing: 1px; box-shadow: 0 4px 15px rgba(6, 182, 212, 0.3);">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    
+</body>
+</html>

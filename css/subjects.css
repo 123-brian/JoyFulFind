@@ -1,0 +1,15 @@
+table {
+  border: 4px solid black;
+  border-radius: 30px;
+  border-collapse: collapse; /* optional but recommended */
+  margin: auto; /* centers the table on the page */
+  width: 50%; /* optional: sets the table width to 80% of the container */
+  height: 50vh; /* optional: sets the table height to 80% of the viewport height */
+  text-align: center;
+  font-weight: bold;
+}
+
+
+table td, table th {
+  border: 3px solid black; /* adds borders inside the table too */
+}
